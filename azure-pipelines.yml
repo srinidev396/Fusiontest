@@ -4,7 +4,6 @@
 # https://aka.ms/yaml
 
 trigger:
-- main
 
 pool:
   name: Default
@@ -16,5 +15,5 @@ steps:
     ConnectionType: 'AzureRM'
     azureSubscription: 'Azure_DevOps_Service_Connection'
     appType: 'webApp'
-    WebAppName: 'Tab-WebApp'
+    WebAppName: 'TABpocbasic'
     packageForLinux: '$(Build.SourcesDirectory)'

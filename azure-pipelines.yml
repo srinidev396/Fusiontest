@@ -16,5 +16,5 @@ steps:
     ConnectionType: 'AzureRM'
     azureSubscription: 'Azure_DevOps_Service_Connection'
     appType: 'webApp'
-    WebAppName: 'TABpocbasic'
+    WebAppName: 'webapp-apitest-cc-fusionapi-001'
     packageForLinux: '$(Build.SourcesDirectory)'
